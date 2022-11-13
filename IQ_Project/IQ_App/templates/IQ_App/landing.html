@@ -1,0 +1,9 @@
+{% extends "IQ_App/layout.html" %}
+{% load static %}
+<link href="{% static 'IQ_App/style.css' %}" rel="stylesheet">
+{% block body %}
+
+{% include "IQ_App/bootstrap/carousel.html"%}
+
+<button type="button" class="btn btn-primary btn-lg position-absolute bottom-0 start-50 translate-middle-x">Reserve</button>
+{% endblock %}
